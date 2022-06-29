@@ -31,19 +31,22 @@
             <table class="table table-hover">
                 <tr>
                     <td>
-                        Nama Depan :
+                        Nama Depan 
                     </td>
                     <td>
-                        Nama Belakang :
+                        Nama Belakang 
                     </td>
                     <td>
-                        Jenis Kelamin :
+                        Jenis Kelamin 
                     </td>
                     <td>
-                        Agama :
+                        Agama 
                     </td>
                     <td>
-                        Alamat :
+                        Alamat 
+                    </td>
+                    <td>
+                        Aksi 
                     </td>
                 </tr>
                 <tr>
@@ -63,6 +66,9 @@
                             </td>
                             <td>
                                 {{$siswa -> alamat}}
+                            </td>
+                            <td>
+                                <a href="/siswa/{{$siswa->id}}/edit" class="btn btn-warning">Edit</a>
                             </td>
                         </tr>
                     @endforeach
