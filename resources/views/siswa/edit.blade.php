@@ -51,10 +51,8 @@
                     </select>
                 </div>
                 <div class="mb-3">
-                    <div class="form-floating">
-                        <textarea name="alamat" value="{{$siswa->alamat}}" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
-                        <label for="floatingTextarea">Alamat</label>
-                    </div>
+                    <label>Alamat</label>
+                    <textarea name="alamat" value="{{$siswa->alamat}}" class="form-control" placeholder="Alamat" ></textarea>
                 </div>
               
         </div>
